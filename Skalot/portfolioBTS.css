@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+    overflow-x: hidden;
+}
+
+/* Color Palette */
+:root {
+    --dark-blue : #0b132b;
+    --blue : #1c2541;
+    --blue-normal : #3a506b;
+    --light-blue : #5bc0be;
+    --very-light-blue : #6fffe9;
+}
+
+/* Navbar */
+nav {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    width: 100%;
+    height: 75px;
+    background-color: var(--very-light-blue);
+    border-bottom: 1px solid var(--dark-blue);
+}
+nav .logo {
+    position: absolute;
+    top: 5%;
+    left: 12.5%;
+    transform: translate(-50%, -50%);
+    color: var(--dark-blue);
+    cursor: pointer;
+    font-weight: bold;
+}
+nav .logo a{
+    text-decoration: none;
+    cursor: pointer;
+    color: black;
+    margin-right: 20px;
+}
+nav ul {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    margin-right: 5%;
+}
+nav ul a {
+    text-decoration: none;
+    cursor: pointer;
+    color: black;
+    margin-right: 20px;
+}
+nav ul a:last-child {
+    margin-right: 0;
+}
+h1{
+    margin-left: 10px;
+}
+h2{
+    margin: 25px;
+}
+ul{
+    position: relative;
+    left: 50px;
+}
+ul li{
+    margin-top: 15px;
+}
+ul li a {
+    text-decoration: none;
+    color: black;
+}

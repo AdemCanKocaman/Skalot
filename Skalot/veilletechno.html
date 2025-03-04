@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Veille Technologique</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+    overflow-x: hidden;
+}
+
+/* Color Palette */
+:root {
+    --dark-blue : #0b132b;
+    --blue : #1c2541;
+    --blue-normal : #3a506b;
+    --light-blue : #5bc0be;
+    --very-light-blue : #6fffe9;
+}
+
+/* Navbar */
+nav {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    width: 100%;
+    height: 75px;
+    background-color: var(--very-light-blue);
+    border-bottom: 1px solid var(--dark-blue);
+}
+nav .logo {
+    position: absolute;
+    top: 5%;
+    left: 12.5%;
+    transform: translate(-50%, -50%);
+    color: var(--dark-blue);
+    cursor: pointer;
+    font-weight: bold;
+}
+nav ul {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    margin-right: 5%;
+}
+nav ul a {
+    text-decoration: none;
+    cursor: pointer;
+    color: black;
+    margin-right: 20px;
+}
+nav ul a:last-child {
+    margin-right: 0;
+}
+h1{
+    margin: 15px;
+}
+p{
+    width: 90%;
+    height: 300px;
+    margin: 20px;
+}
+.iframe{
+    width: 90%;
+    height: 500px;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.iframe iframe{
+    margin: 15px;
+}
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="logo">Adem Can KOCAMAN</div>
+        <ul>
+            <a href="index.html"><li id="About">About</li></a>
+            <a href="#"><li id="Portfolyo">Competance</li></a>
+            <a href="portfolioBTS.html"><li id="PortfolyoBTS">Portfolio BTS</li></a>
+            <a href="#"><li id="Certificat">Certificat</li></a>
+            <a href="#"><li id="VeilleTechno">Veille Techno</li></a>
+            <a href="#"><li id="Contact">Contact</li></a>
+        </ul>
+    </nav>
+    <h1>Veille Technologique - IA dans les Jeux Videos</h1>
+    <p>En 2024, l’intelligence artificielle (IA) est au cœur de l’évolution de l’industrie du jeu vidéo, offrant des innovations qui touchent à la fois la création, l’expérience utilisateur et le développement technique. L’un des aspects les plus marquants est l’utilisation de l’IA pour générer du contenu dynamique. Les jeux peuvent désormais adapter en temps réel leurs niveaux, scénarios et cartes en fonction du comportement et des préférences des joueurs, rendant chaque session unique et immersive. Cette technologie permet également de créer des personnages non-joueurs (PNJ) plus réalistes et réactifs, capables d’interagir de manière fluide et naturelle grâce aux modèles de langage génératif, comme on le voit dans des titres d’Ubisoft ou Activision
+        L’IA révolutionne également le développement des jeux en optimisant la création des animations et des effets visuels. Des studios comme Electronic Arts utilisent ces outils pour automatiser certaines tâches techniques, ce qui permet aux développeurs de se concentrer davantage sur les aspects créatifs. Par ailleurs, l’intégration croissante de la réalité augmentée (RA) et de la réalité virtuelle (RV) contribue à rendre les expériences de jeu encore plus immersives, à travers des plateformes comme le PlayStation VR de Sony et des collaborations entre Microsoft et Valve​
+        Dans le domaine de l’esport, l’IA améliore l’analyse des performances des joueurs et optimise les stratégies de jeu, contribuant ainsi à la croissance de cette industrie devenue un phénomène mondial. Enfin, une nouvelle convergence entre les jeux mobiles et les plateformes traditionnelles comme les consoles et PC change la donne, forçant les développeurs à repenser l’expérience utilisateur pour répondre aux attentes d’un public toujours plus mobile et connecté. Ces avancées montrent que l’IA continuera de jouer un rôle central dans la transformation de l'industrie vidéoludique dans les années à venir.
+    </p>
+    <div class="iframe">
+        <iframe src="https://www.startechup.com/fr/blog/8-trends-in-gaming-in-2024/" width="600px" height="400px" style="border:none;"></iframe>
+        <iframe src="https://www.puregamemedia.fr/high-tech/ces-2024-les-meilleures-innovations-en-intelligence-artificielle-et-jeux-video/" width="600px" height="400px" style="border:none;"></iframe>
+    </div>
+</body>
+</html>
