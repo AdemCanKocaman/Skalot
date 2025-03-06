@@ -1,8 +1,13 @@
 {
-    "about": "Ben bir full-stack geliştiriciyim. Kariyerime 2015 yılında başladım.",
-    "projects": "Projelerim arasında web uygulamaları, mobil uygulamalar ve yapay zeka çalışmaları var.",
-    "contact": "E-posta: example@email.com, LinkedIn: linkedin.com/in/example",
-    "how are you": "I'm good, thanks!",
-    "hello": "Hi there! How can I help you?",
-    "naber la yavvamm" : "Vay canım kardeşim Ezgim hoş geldin"
+        "about": "Je suis un développeur full-stack. J'ai commencé ma carrière en 2015.",
+        "projects": "Mes projets incluent des applications web, des applications mobiles et des travaux en intelligence artificielle.",
+        "contact": "E-mail : example@email.com, LinkedIn : linkedin.com/in/example",
+        "how are you": "Je vais bien, merci !",
+        "hello": "Salut ! Comment puis-je t’aider ?",
+        "naber la yavvamm": "Oh mon ami Ezgim, bienvenue !",
+        "what's your name": "Je suis ton assistant amical !",
+        "favorite programming language": "Je n’ai pas de préféré, mais JavaScript et Python sont très populaires !",
+        "tell me a joke": "Pourquoi les programmeurs préfèrent-ils le mode sombre ? Parce que la lumière attire les bugs !",
+        "goodbye": "À bientôt ! Passe une excellente journée !",
+        "help": "Bien sûr ! Dis-moi en quoi tu as besoin d’aide."
 }
